@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pokusy: Retro terén C128</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="wrap">
+    <h1>RETRO TERÉN • C128 STYL</h1>
+    <canvas id="game" width="960" height="640" aria-label="Retro hra s terénem"></canvas>
+    <section class="hud">
+      <div>Úroveň: <span id="level">1</span></div>
+      <div>Tahy: <span id="moves">0</span></div>
+      <div>Body: <span id="score">0</span></div>
+      <div id="message">Srovnej terén do roviny. Klikni nebo stiskni ENTER/MEZERNÍK pro navýšení uzlu.</div>
+    </section>
+    <section class="controls">
+      <p>Pohyb kurzoru: ŠIPKY / WASD • Potvrdit: ENTER / MEZERA / klik</p>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
